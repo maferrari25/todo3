@@ -10,27 +10,7 @@ import Filter from './components/Filter';
 
 function App() {
 
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      text: 'Criar Funcionalidade X no Sistema',
-      category: 'Trabalho',
-      isCompleted: false,
-    },
-    {
-      id: 2,
-      text: 'Ir para a academia',
-      category: 'Pessoal',
-      isCompleted: false,
-    },
-    {
-      id: 3,
-      text: 'Estudar React',
-      category: 'Estudo',
-      isCompleted: false,
-    }
-  ]
-  )
+  const [todos, setTodos] = useState([])
 
   const [pesquisar, setPesquisar] = useState('');
 
